@@ -1,7 +1,6 @@
 # Arithmetic Operations in Python
 # Integers
-
-print('Addition: ', 1 + 2)
+print( " 1 + 2")
 print('Subtraction: ', 2 - 1)
 print('Multiplication: ', 2 * 3)
 # Division in python gives floating number
@@ -127,3 +126,28 @@ print(not True)      # False - Negation, the not operator turns true to false
 print(not False)     # True
 print(not not True)  # True
 print(not not False)  # False
+
+# Exercise: Day 3 - Operators
+age = 28
+height = 1.82  # in meters
+complex_number = 1 + 2j
+#b = float(input("Enter base: "))
+#h = float(input("Enter height: "))
+#print("the area of the triangle is: ", 0.5* b * h )
+# 5
+# a = float(input("Enter side a: "))
+# b = float(input("Enter side b: "))
+# c = float(input("Enter side c: "))
+# print("perimeter of triangle is: ", a+b+c)
+# 6
+w = 5
+l = 6
+area = float(w) * float(l)
+perimeter = 2 * (float(w) + float(l))
+print(f'area: {area} and perimeter {perimeter}')
+# 7
+pi = 3.14
+r = 2
+area = pi * r**2
+circumference = 2 * pi * r
+print(f'Circle area: {area} and circumference {circumference}')
