@@ -145,9 +145,30 @@ l = 6
 area = float(w) * float(l)
 perimeter = 2 * (float(w) + float(l))
 print(f'area: {area} and perimeter {perimeter}')
+
 # 7
 pi = 3.14
 r = 2
 area = pi * r**2
 circumference = 2 * pi * r
 print(f'Circle area: {area} and circumference {circumference}')
+
+# 8 
+m = 2
+x = 1
+y = 0
+b = -2
+print(m, x, y, b)
+
+#9
+import math
+x1=2
+x2=6
+y1=2
+y2=10
+
+print(math.sqrt((x2-x1)**2 + (y2-y1)**2))
+
+
+
+
