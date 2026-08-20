@@ -159,7 +159,7 @@ x = 1
 y = 0
 b = -2
 print(m, x, y, b)
-
+print("slope1: ", m)
 #9
 import math
 x1=2
@@ -167,10 +167,15 @@ x2=6
 y1=2
 y2=10
 
-slope2 = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+slope2 = (y2-y1)/(x2-x1)
 
-print(slope2)
+euclidean_distance = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print("slope2: ",slope2)
 
 
 # 10 
 print("compare slopes: ", slope2 == m) 
+
+
+
