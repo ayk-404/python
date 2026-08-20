@@ -167,8 +167,10 @@ x2=6
 y1=2
 y2=10
 
-print(math.sqrt((x2-x1)**2 + (y2-y1)**2))
+slope2 = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print(slope2)
 
 
-
-
+# 10 
+print("compare slopes: ", slope2 == m) 
